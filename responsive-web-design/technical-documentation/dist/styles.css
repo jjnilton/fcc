@@ -88,6 +88,10 @@ main::after {
   nav {
     min-width: 250px;
     width: unset;
+    font-size: 0.8em;
+  }
+  nav > header > h1 {
+    margin-bottom: 0;
   }
 
   main::after {
@@ -104,6 +108,10 @@ main::after {
   }
   main section {
     padding-top: 5px;
+  }
+
+  footer {
+    display: none;
   }
 }
 

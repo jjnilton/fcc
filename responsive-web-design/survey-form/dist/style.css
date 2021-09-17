@@ -1,8 +1,7 @@
 #name, #email, #number, #dropdown, #text {
   display: block;
   margin: 5px 0 15px 0;
-  max-width: 100%;
-  min-width: 300px;
+  width: 100%;
   height: 30px;
   padding: 0 10px 0 10px;
   font-size: 16px;
@@ -40,6 +39,8 @@ label {
 
 .container {
   display: grid;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 form {
@@ -50,6 +51,7 @@ form {
   border-radius: 5px;
   overflow: hidden;
   font-weight: bold;
+  width: 90%;
 }
 
 form::before {
@@ -86,6 +88,7 @@ body, html {
   z-index: 0;
 /*   margin-left: 20px;
   margin-right: 20px; */
+  margin-top: -10px;
 }
 
 .bg-image::before {
