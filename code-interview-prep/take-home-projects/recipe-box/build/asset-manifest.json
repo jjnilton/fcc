@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/css/main.07130294.chunk.css",
-    "main.js": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/js/main.e06fc36b.chunk.js",
-    "main.js.map": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/js/main.e06fc36b.chunk.js.map",
-    "runtime-main.js": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/js/runtime-main.fb5e6c1c.js",
-    "runtime-main.js.map": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/js/runtime-main.fb5e6c1c.js.map",
-    "static/js/2.f631bbdd.chunk.js": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/js/2.f631bbdd.chunk.js",
-    "static/js/2.f631bbdd.chunk.js.map": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/js/2.f631bbdd.chunk.js.map",
-    "index.html": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/index.html",
-    "static/css/main.07130294.chunk.css.map": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/css/main.07130294.chunk.css.map",
-    "static/js/2.f631bbdd.chunk.js.LICENSE.txt": "/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build/static/js/2.f631bbdd.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.07130294.chunk.css",
+    "main.js": "./static/js/main.dd72c9aa.chunk.js",
+    "main.js.map": "./static/js/main.dd72c9aa.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c5b1610a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c5b1610a.js.map",
+    "static/js/2.f631bbdd.chunk.js": "./static/js/2.f631bbdd.chunk.js",
+    "static/js/2.f631bbdd.chunk.js.map": "./static/js/2.f631bbdd.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.07130294.chunk.css.map": "./static/css/main.07130294.chunk.css.map",
+    "static/js/2.f631bbdd.chunk.js.LICENSE.txt": "./static/js/2.f631bbdd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb5e6c1c.js",
+    "static/js/runtime-main.c5b1610a.js",
     "static/js/2.f631bbdd.chunk.js",
     "static/css/main.07130294.chunk.css",
-    "static/js/main.e06fc36b.chunk.js"
+    "static/js/main.dd72c9aa.chunk.js"
   ]
 }
