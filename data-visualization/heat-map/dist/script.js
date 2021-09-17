@@ -1,5 +1,3 @@
-// https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
-
 const margin = { top: 30, right: 30, bottom: 30, left: 30 };
 const width = 900 - margin.right - margin.left;
 const height = 600 - margin.top - margin.bottom;
@@ -13,7 +11,8 @@ const chart = d3.select("#d3")
                   .append("g")
                   .attr("transform", `translate(${margin.left + margin.top})`)
 
-d3.json("https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json")
+// https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json
+d3.json("https://raw.githubusercontent.com/jjnilton/freecodecamp-projects/main/data-visualization/heat-map/data/global-temperature.json")
   .then(json => {
   
   const dataset = json;

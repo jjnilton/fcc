@@ -1,5 +1,7 @@
-const edu_file = "https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json"
-const counties_file = "https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json"
+// US Education Data: https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json
+// US County Data: https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json
+const edu_file = "https://raw.githubusercontent.com/jjnilton/freecodecamp-projects/main/data-visualization/choropleth-map/data/for_user_education.json"
+const counties_file = "https://raw.githubusercontent.com/jjnilton/freecodecamp-projects/main/data-visualization/choropleth-map/data/counties.json"
 
 const element = d3.select("#d3");
 

@@ -1,7 +1,8 @@
 const element = document.querySelector("#d3")
 const chart = d3.select(element);
 
-d3.json("https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json").then((data) => {
+// https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json
+d3.json("https://raw.githubusercontent.com/jjnilton/freecodecamp-projects/main/data-visualization/scatterplot-graph/data/cyclist-data.json").then((data) => {
   const dataset = data;
   
   const width = 800;

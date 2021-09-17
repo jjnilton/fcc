@@ -1,5 +1,3 @@
-// https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json
-
 const element = d3.select("#d3");
 const chart = element.append("svg");
 
@@ -11,7 +9,8 @@ chart
   .attr("width", width + 100)
   .attr("height", height)
 
-d3.json("https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json")
+// https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json  
+d3.json("https://raw.githubusercontent.com/jjnilton/freecodecamp-projects/main/data-visualization/treemap-diagram/data/video-game-sales-data.json")
   .then(json => {
    const dataset = json;
   
