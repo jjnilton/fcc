@@ -1,0 +1,385 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  color: white;
+}
+
+header .main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  transform: translateY(100%);
+  margin-top: -2.5em;
+  /* styles for FCC */
+  /* position: fixed;
+  background-color: #005050;
+  width: 100%;
+  z-index: 10; */
+}
+
+header .logo-and-title {
+  display: flex;
+}
+
+header .logo-and-title > div.main-title {
+  margin-left: 5px;
+}
+
+header .logo-and-title a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 5px teal;
+}
+
+header > .main-header > nav > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header > .main-header > nav > ul > li{
+  list-style: none;
+  margin: 0 1em;
+  text-shadow: 0 0 5px black;
+}
+
+header > .main-header > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+header div#featured {
+  flex: 1 1 100%;
+}
+
+header .video-container {
+  position: relative;
+  z-index: -1
+}
+
+header video {
+  width: 100%;
+  z-index: -1;
+
+}
+
+header .featured-text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+header .featured-text-container h2 {
+  text-shadow: 0 0 3px black;
+  text-align: center;
+}
+
+section#plans > div.plans-text {
+  text-align: center;
+}
+
+section#plans > div.plans-container {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section#plans > div.plans-container > div.plan {
+  background-color: rgb(236, 253, 253);
+  border: 3px solid teal;
+  flex: 1 1 30%;
+  margin: 10px;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 25px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+section#plans > div.plans-container > div.plan:nth-child(even) {
+  background-color: rgb(184, 248, 248);
+}
+
+section#plans .plan:nth-child(even) {
+  transform: translateY(-2.5%);
+}
+
+section#plans .plan:hover {
+  transform: scale(1.1);
+  transition: all 200ms;
+}
+
+section#plans .plan-title {
+  text-align: center;
+  background-color: teal;
+  color: white;
+  margin: -5px -5px 5px -5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+section#plans ul {
+  padding: 0;
+}
+
+section#plans ul li {
+  list-style: none;
+}
+
+section#plans div.plan div.plan-price > div.buy::before {
+  text-align: center;
+  font-weight: bold;
+  content: "";
+  display: block;
+  color: white;
+  animation-name: fomo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fomo {
+  0% {
+    content: "BUY NOW";
+    opacity: 0;
+  }
+
+  25% {
+    content: "BUY NOW";
+    opacity: 1;
+  }
+
+  50% {
+    content: "BUY NOW";
+    opacity: 0;
+  }
+
+  51% {
+    content: "SALE PRICE";
+    opacity: 0;
+  }
+
+  75% {
+    content: "SALE PRICE";
+    opacity: 1;
+  }
+  99% {
+    content: "SALE PRICE";
+    opacity: 0;
+  }
+  100% {
+    content: "BUY NOW";
+    opacity: 0;
+  }
+}
+
+section#plans div.plan div.plan-price {
+  font-weight: bold;
+  align-self: center;
+  margin-top: auto;
+  background-color: teal;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  min-width: 120px;
+}
+
+section#plans div.plan div.price-detail {
+  text-align: center;
+  font-size: 0.6em;
+  color: rgb(121, 184, 184);
+}
+
+section#reviews {
+  background-color: #005050;
+}
+
+section#reviews > div.reviews-text {
+  text-align: center;
+  color: white;
+}
+
+section#reviews > div.reviews-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+section#reviews .review {
+  background-color: rgb(213, 248, 248);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  flex: 0 0 30%;
+  display: flex;
+  flex-direction: column;
+  color: #002525;
+}
+
+section#reviews .review > .review-author {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+}
+
+section#reviews .review > .review-author > .author-name {
+  margin-top: auto;
+  font-size: 0.8em;
+}
+
+section#reviews .review > .review-author > .author-avatar img {
+  border-radius: 50px;
+}
+
+section#faq > div.faq-text {
+  text-align: center;
+}
+
+section#faq > div.faq-container > .faq-item > details {
+  background-color: teal;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::before {
+  content: '🤔 ';
+}
+
+details[open] > summary::before {
+  content: '😉 ';
+}
+
+section#faq > div.faq-container > .faq-item > details[open] {
+  background-color: rgb(0, 73, 73);
+}
+
+section#faq > div.faq-container > .faq-item > details[open] > summary{
+  font-weight: bold;
+}
+
+section#subscribe {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section#subscribe form input[type="email"] {
+  border: 3px solid teal;
+  height: 3em;
+  border-radius: 5px
+
+}
+
+section#subscribe form input[type="submit"] {
+  height: 3em;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(0, 50, 50);
+  color: white;
+  margin-top: auto;
+}
+
+footer > .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer > .footer-container > .footer-section {
+  margin: 10px;
+  padding: 5px;
+  flex: 1 1 30%;
+}
+
+.footer-container > .footer-section > div.title {
+  font-weight: bold;
+}
+
+.footer-section > ul {
+  padding: 0;
+}
+
+.footer-section > ul > li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+@media (max-width: 620px) {
+  section#plans > div.plans-container > div.plan {
+    margin: 15px 30px;
+    min-width: 300px;
+    text-align: center;
+  }
+  section#plans .plan:nth-child(even) {
+    transform: none;
+  }
+  
+  section#plans .plan:hover {
+    transform: scale(1.1);
+    transition: all 200ms;
+  }
+
+  section#reviews .review {
+    flex: 0 0 90%;
+  }
+
+  footer > .footer-container > .footer-section {
+    margin: 10px;
+    padding: 5px;
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 420px) {
+  header .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transform: translateY(100%);
+    margin-top: -3.5em;
+  }
+
+  header .featured-text-container h2 {
+    font-size: 1.25em;
+  }
+
+}

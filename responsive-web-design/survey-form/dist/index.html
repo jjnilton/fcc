@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="bg-image">
+<div class="header">
+<h1 id="title">The Pizza Form</h1>
+<p id="description">Choose your Pizza</p>
+</div>
+
+<div class="container">
+<form action="" id="survey-form">
+
+  <label class="label-title" id="name-label" for="name">Name <span class="required">*</span></label>
+  <input type="text" id="name" placeholder="Name..." required>
+
+  <label class="label-title" id="email-label" for="email">Email <span class="required">*</span></label>
+  <input type="email" id="email" placeholder="Email..." required>
+
+  <label class="label-title" id="number-label" for="number">Quantity</label>
+  <input type="number" id="number" min="1" max="10" placeholder="Number..." required>
+
+  <label class="label-title" for="">Flavor</label>
+  <select name="" id="dropdown">
+    <option value="" disabled selected>Select a flavor</option>
+    <option value="">Pepperoni</option>
+    <option value="">Corn</option>
+    <option value="">Cheese</option>
+
+  </select>
+<label class="label-title" for="">Pasta</label>
+  <label class="block" for=""><input type="radio" name="radio" value="fina">Thin</label>
+  <label class="block"for=""><input type="radio" name="radio" value="ultra-fina">Ultra Thin</label>
+<label class="label-title block" for="">Edge</label>
+  <label class="block" for=""><input type="checkbox" name="checkbox" value="1">Cream Cheese</label>
+ <label class="block" for=""><input type="checkbox" name="checkbox" value="1">Cheap Catupiry (free)</label>
+  <label class="label-title block" for="">Your Comment</label>
+  <textarea class="block" name="" id="text" cols="" rows=""></textarea>
+
+  <input id="submit" type="submit" value="Send">
+  
+</form>
+</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

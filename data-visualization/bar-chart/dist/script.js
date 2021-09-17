@@ -9,7 +9,7 @@ const margin = 50;
 
 let json = {};
 
-d3.json('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json')
+d3.json('https://raw.githubusercontent.com/jjnilton/freecodecamp-projects/main/data-visualization/bar-chart/data/GDP-data.json')
   .then((data) => {
     json = data;
     init();
