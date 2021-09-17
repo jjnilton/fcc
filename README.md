@@ -14,13 +14,13 @@ Sections:
 
 [Responsive Web Design](responsive-web-design) projects with HTML, CSS, SCSS, Sass and Bootstrap.
 
-| Project                 | Description                                | Technologies        | Source                                                | Live     |
-| ----------------------- | ------------------------------------------ | ------------------- | ----------------------------------------------------- | -------- |
-| Tribute Page            | A simple tribute page                      | HTML, Bootstrap     | [View](responsive-web-design/tribute-page)            | [View]() |
-| Survey Form             | A simple page with a form                  | HTML, CSS           | [View](responsive-web-design/survey-form)             | [View]() |
-| Product Landing Page    | A product landing page                     | HTML, CSS, Flexbox  | [View](responsive-web-design/product-landing-page)    | [View]() |
-| Technical Documentation | A simple technical documentation page      | HTML, SCSS, Flexbox | [View](responsive-web-design/technical-documentation) | [View]() |
-| Personal Portfolio      | A portfolio page showcasing these projects | HTML, Sass, Grid    | [View](responsive-web-design/personal-portfolio)      | [View]() |
+| Project                 | Description                                | Technologies        | Source                                                | Live                                                                                                   |
+| ----------------------- | ------------------------------------------ | ------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Tribute Page            | A simple tribute page                      | HTML, Bootstrap     | [View](responsive-web-design/tribute-page/README.md)  | [View](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/tribute-page/)           |
+| Survey Form             | A simple page with a form                  | HTML, CSS           | [View](responsive-web-design/survey-form)             | [View](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/survey-form)             |
+| Product Landing Page    | A product landing page                     | HTML, CSS, Flexbox  | [View](responsive-web-design/product-landing-page)    | [View](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/product-landing-page)    |
+| Technical Documentation | A simple technical documentation page      | HTML, SCSS, Flexbox | [View](responsive-web-design/technical-documentation) | [View](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/technical-documentation) |
+| Personal Portfolio      | A portfolio page showcasing these projects | HTML, Sass, Grid    | [View](responsive-web-design/personal-portfolio)      | [View](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/personal-portfolio)      |
 
 ## JavaScript Algorithms and Data Structures
 
@@ -80,9 +80,9 @@ Sections:
 
 [Take-home Projects](code-interview-prep/take-home-projects) you can use to practice development, or add to a portfolio.
 
-| Project          | Description                              | Technologies        | Source                                                          | Live      |
-| ---------------- | ---------------------------------------- | ------------------- | --------------------------------------------------------------- | --------- |
-| Local Weather    | Shows local weather from IP geo-location | jQuery              | [View](code-interview-prep/take-home-projects/local-weather)    | [View])() |
-| Wikipedia Viewer | Searches Wikipedia article               | jQuery              | [View](code-interview-prep/take-home-projects/wikipedia-viewer) | [View])() |
-| Twitch Checker   | Show information about Twitch streamers  | jQuery              | [View](code-interview-prep/take-home-projects/twitch-checker)   | [View])() |
-| Recipe Box       | Manage a recipe list                     | React, React Router | [View](code-interview-prep/take-home-projects/recipe-box)       | [View])() |
+| Project          | Description                              | Technologies        | Source                                                          | Live     |
+| ---------------- | ---------------------------------------- | ------------------- | --------------------------------------------------------------- | -------- |
+| Local Weather    | Shows local weather from IP geo-location | jQuery              | [View](code-interview-prep/take-home-projects/local-weather)    | [View]() |
+| Wikipedia Viewer | Searches Wikipedia article               | jQuery              | [View](code-interview-prep/take-home-projects/wikipedia-viewer) | [View]() |
+| Twitch Checker   | Show information about Twitch streamers  | jQuery              | [View](code-interview-prep/take-home-projects/twitch-checker)   | [View]() |
+| Recipe Box       | Manage a recipe list                     | React, React Router | [View](code-interview-prep/take-home-projects/recipe-box)       | [View]() |
