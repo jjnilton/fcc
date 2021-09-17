@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: black;
+  // margin: 2.5vmin;
+  display: flex;
+  height: 100vh;
+
+}
+
+
+#root {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: auto auto 0 auto;
+  
+}
+
+#keypad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3.5vmin;
+  grid-template-areas:
+    "clear negative percent divide"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zero zero decimal equals";
+
+  
+}
+
+#display { grid-area: display; }
+
+#zero { grid-area: zero; }
+#one { grid-area: one; }
+#two { grid-area: two; }
+#three { grid-area: three; }
+#four { grid-area: four; }
+#five { grid-area: five; }
+#six { grid-area: six; }
+#seven { grid-area: seven; }
+#eight { grid-area: eight; }
+#nine { grid-area: nine; }
+
+#divide { grid-area: divide; }
+#multiply { grid-area: multiply; }
+#subtract { grid-area: subtract; }
+#add { grid-area: add; }
+
+#clear { grid-area: clear; }
+#decimal { grid-area: decimal; }
+#equals { grid-area: equals; }
+#negative { grid-area: negative; }
+#percent { grid-area: percent; }
+
+#display {
+  color: white;
+  font-size: 25vw;
+  text-align: right;
+}
+
+#keypad > div {
+
+  text-align: center;
+  padding: 5px;
+  font-size: 10vw;
+  border-radius: 9999px;
+  
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  padding: 5vw;
+}
+
+
+div#clear, div#negative, div#percent {
+  background-color: #aaa;
+  color: black;
+  &:active {
+    background-color: #eee;
+  }
+}
+
+div#divide, div#multiply, div#subtract, div#add, div#equals {
+  background-color: orange;
+  &:active, &.active {
+    background-color: white;
+    color: orange;
+  }
+}
+
+// numbers and decimal
+#keypad > div:nth-child(-n+10), #keypad > div#decimal {
+  &:active {
+    background-color: #aaa;
+  }
+}
+
+#display > span {
+  &.seven-digits {
+    font-size: 21vmin;
+  }
+  &.eight-digits {
+    font-size: 19vmin;
+  }
+  &.nine-digits {
+    font-size: 17vmin;
+  }
+  &.ten-digits {
+    font-size: 16vmin;
+  }
+}
+
+
+
+@media (min-width: 768px), (orientation: landscape) {
+  
+  body {
+    display: flex;
+    height: 100vh;
+  }
+  
+  #root {
+    margin: auto;
+  }
+  #keypad {
+    grid-gap: 1.5vmin;
+  }
+  
+  #display {
+    font-size: 12vmin;
+  }
+  #keypad > div {
+    font-size: 5vmin;
+    padding: 2.5vmin;
+  }
+  
+  #display > span {
+  &.seven-digits {
+    font-size: 10vmin;
+  }
+  &.eight-digits {
+    font-size: 9vmin;
+  }
+  &.nine-digits {
+    font-size: 8vmin;
+  }
+  &.ten-digits {
+    font-size: 7.5vmin;
+  }
+}
+ 
+  
+  
+}
+

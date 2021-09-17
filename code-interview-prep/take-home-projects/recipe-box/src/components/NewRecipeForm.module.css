@@ -1,0 +1,84 @@
+.new-recipe h1 {
+  margin-left: 10px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  color: #333;
+  background-color: #eee;
+}
+
+.form > * {
+  margin: 5px;
+}
+
+.form p {
+  font-size: 0.9em;
+  margin: 0 5px;
+  color: #555
+}
+
+.form > input {
+  height: 2em;
+}
+
+.form > input, .form textarea {
+  border: 3px solid steelblue;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.form button {
+  text-decoration: none;
+  min-width: 80px;
+  cursor: pointer;
+  background-color: steelblue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+.form button:hover {
+  background-color: rgb(41, 78, 107);
+}
+
+.new-recipe .back {
+  background-color: rgb(32, 62, 85);
+  margin: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.new-recipe .back:hover {
+  background-color: rgb(24, 47, 63);
+}
+
+.new-recipe .success {
+  background-color: green;
+  text-align:center;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.new-recipe .error {
+  background-color: rgb(153, 31, 31);
+  text-align:center;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+

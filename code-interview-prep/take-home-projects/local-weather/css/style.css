@@ -1,0 +1,95 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  width: 80vw;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+}
+
+.city {
+  font-size: 4vmax;
+}
+#temp {
+  font-size: 8vmax;
+}
+.desc {
+  font-size: 5vmax;
+}
+#unit {
+  cursor: pointer;
+  font-size: 8vmax;
+}
+.night #unit:hover {
+  text-shadow: 0px 0px 10px #FEFE33;
+}
+.day #unit:hover {
+  text-shadow: 0px 0px 10px #00BBFF;
+}
+
+.night {
+  background: #000022;
+  color: #99BBDD;
+  text-shadow: 
+    1px 1px 0 #001,
+    -1px -1px 0 #002,
+    1px -1px 0 #003,
+    -1px 1px 0 #004;
+    
+}
+
+.night .city {
+  color: #0066BB;
+}
+
+.day .city {
+  color: #DDAA00;
+}
+
+.day {
+  background: #C4FCFF;
+  color: #1188CC;
+}
+
+.day #unit {
+  color: #00BBFF;
+}
+
+.night #unit {
+  color: #EEEE22;
+}
+
+.night .footer {
+  background: #001111;
+  color: #0055AA;
+}
+
+.day .footer {
+  background: #00AA55;
+  color: #444400;
+  outline: 1px dotted #00AA55;
+  outline-radius: 10px;
+}
+
+#time {
+  font-size: 3.5vmin;
+}
+
+.day .sun {
+  z-index: -1;
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  background-image: radial-gradient(circle 35vmin at 40% 50%, white, yellow, lightyellow, transparent);
+}
+
+.night .sun {
+  z-index: -1;
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  margin: auto;
+  background-image: radial-gradient(circle 25vmin at 40% 50%, #DDD 50%, #EEE, #FFF, transparent);
+}

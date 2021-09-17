@@ -1,0 +1,115 @@
+.recipe-view {
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-view h1,
+.recipe-view h2 {
+  color: #333;
+}
+
+.recipe-view ul, .recipe-view ol {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.recipe-view ul li, .recipe-view ol li {
+  margin: 10px 5px;
+}
+
+.recipe-view input, .recipe-view textarea {
+  border: 3px solid steelblue;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.recipe-view input {
+  height: 2em;
+}
+
+.recipe-view .actions {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  margin-bottom: 20px;
+}
+
+.recipe-view button {
+  text-decoration: none;
+  min-width: 80px;
+  cursor: pointer;
+  background-color: steelblue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  display: block;
+  font-size: 0.9em;
+  border: 2px solid steelblue;
+}
+
+.recipe-view button:hover {
+  background-color: rgb(41, 78, 107);
+}
+
+.recipe-view button.cancel {
+  background-color: white;
+  color: steelblue;
+  border: 2px solid steelblue;
+  margin-left: 5px;
+}
+
+.recipe-view button.cancel:hover {
+  background-color: rgb(223, 243, 255);
+}
+
+.recipe-view .back {
+  background-color: rgb(32, 62, 85);
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 5px;
+  border: 2px solid rgb(32, 62, 85);
+}
+
+.recipe-view .back:hover {
+  background-color: rgb(24, 47, 63);
+}
+
+.recipe-view button.delete {
+  background-color: white;
+  border: 2px solid rgb(204, 22, 22);
+  color: rgb(204, 22, 22);
+  margin: 5px;
+}
+
+.recipe-view button.confirm-delete {
+  background-color: rgb(204, 22, 22);
+  border: 2px solid rgb(204, 22, 22);
+  color: white;
+}
+
+.recipe-view button.delete:hover {
+  background-color: rgb(204, 22, 22);
+  color: white;
+}
+
+.recipe-view button.confirm-delete:hover {
+  background-color: rgb(141, 22, 22);
+  border: 2px solid rgb(141, 22, 22);
+  color: white;
+}
+
+.recipe-view .error {
+  background-color: rgb(143, 66, 66);
+  margin: 0 5px;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}

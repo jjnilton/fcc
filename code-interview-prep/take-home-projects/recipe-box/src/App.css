@@ -1,0 +1,28 @@
+body {
+  background-color: #eee;
+}
+
+.App {
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+}
+
+footer {
+  background-color: #4682b4;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

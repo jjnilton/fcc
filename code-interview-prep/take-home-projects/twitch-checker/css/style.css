@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #210035;
+}
+
+.filter {
+  margin: 5px auto;
+  /* width: 50vw; */
+  font-size: 16px;
+  color: #210035;
+  /* new stuff */
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.entry {
+  /* border: 1px solid black; */
+  margin: 5px auto;
+  padding: 5px;
+  max-width: 600px;
+  min-width: 300px;
+  background-color: #36006b;
+  border-radius: 10px;
+  /* new stuff */
+  text-align: center;
+}
+
+.entry:hover {
+  background-color: #3c0079;
+}
+
+.invalid {
+  background-color: grey;
+}
+
+.cname {
+  font-size: 24px;
+  /* color: purple; */
+  /* new stuff */
+  color: rgb(233, 197, 247);
+
+}
+
+.game {
+  font-size: 18px;
+  color: purple;
+  /* new stuff */
+  font-weight: bold;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.5em;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+  color: #210035;
+}
+
+input[type=radio] + label {
+  background: #370058;
+  display: inline-block;
+  /* height: 40px; */
+  color: white;
+}
+
+input[type=radio] + label:hover {
+  background: #400068;
+  display: inline-block;
+  /* height: 40px; */
+}
+
+input[type=radio]:checked + label {
+  background: white;
+  color: #210035;
+}
+
+.channel-info-span {
+  display: block;
+  /* background-color: white; */
+  /* border-radius: 5px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 6em; */
+  margin-top: 10px;
+  margin-bottom: -25px;
+  /* background-color: #AA55FF; */
+  color: #FFF;
+  padding: 5px;
+  /* new stuff */
+  font-weight: bold;
+}
+
+.channel-info {
+  
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 25em; */
+  
+}
+
+.channel-url, .channel-views, .channel-followers, .channel-status a {
+  display: block;
+  background-color: #5622AF;
+  color: #FFF;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.channel-url {
+  text-decoration: none;
+  /* color: purple; */
+  /* background-color: orange; */
+  border-radius: 5px;
+  /* new stuff */
+  color: #210035;
+  background-color: white;
+}
+
+.channel-url a:hover {
+  text-decoration: none;
+  color: purple;
+  background-color: #FFAA55;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+  background-color: #36006b;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 10em; */
+}
+
+.channel-status {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: 2px;
+}
+
+.stream-viewers {
+  /* float: right; */
+  border-radius: 5px;
+  margin: 5px 12px;
+  background-color: white;
+  color: purple;
+  /* new stuff */
+  padding: 5px;
+  position: relative;
+  width: 25%;
+}

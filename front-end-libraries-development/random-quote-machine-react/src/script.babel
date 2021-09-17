@@ -1,0 +1,129 @@
+class QuoteViewer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      quote: '',
+      author: '',
+      error: null,
+      isLoaded: false,
+      prevQuotes: [],
+      position: 0,
+      condition: false
+    }
+  }
+ 
+  
+  getNewQuote() {
+    return fetch("https://cors.bridged.cc/http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en")
+           .then(response => response.json())
+  }
+  
+  getPrevQuoteInTheArr() {
+    if (this.state.position > 0) { 
+    this.setState({
+      position: this.state.position - 1,
+      quote: this.state.prevQuotes[this.state.position - 1].quote,
+      author: this.state.prevQuotes[this.state.position - 1].author
+    })
+    } else {
+      alert("start of the list")
+    }
+  }
+  
+  getNextQuote() {
+    if (this.state.position < this.state.prevQuotes.length - 1) {
+      this.setState({
+      position: this.state.position + 1,
+      quote: this.state.prevQuotes[this.state.position + 1].quote,
+      author: this.state.prevQuotes[this.state.position + 1].author
+    })
+    } else {
+      // alert("end of the list")
+    }
+
+  }
+  
+  getRandomColor() {
+    function random() {
+      return Math.floor(Math.random()*200)
+    }
+    
+    var random360 = function() {
+      return Math.floor(Math.random()*360)
+    }
+    
+    function randomRgb() {
+      return `rgb(${random()}, ${random()}, ${random()})`
+    }
+    
+    var linear = `linear-gradient(${random360()}deg, ${randomRgb()}, ${randomRgb()})`
+    return randomRgb()
+  }
+ 
+  componentDidMount() {
+    document.body.style.backgroundColor = this.getRandomColor();
+    this.setState({
+      isLoaded: false,
+      condition: !this.state.condition
+    })
+    this.getNewQuote().then((response) => {
+      if (this.state.prevQuotes.length == 0 || this.state.prevQuotes[this.state.position].quote != response.quoteText) {
+      
+      this.setState((prevState) => ({
+        isLoaded: true,
+        quote: response.quoteText,
+        author: response.quoteAuthor,
+        prevQuotes: [...this.state.prevQuotes, 
+                     { "quote": response.quoteText,
+                       "author": response.quoteAuthor }],
+        position: this.state.prevQuotes.length
+      }))
+      } else {
+        this.componentDidMount()
+      }
+    },
+    (error) => {
+      this.componentDidMount()
+    });
+    
+  }
+  
+  render() {
+    if (this.state.error) {
+      return <div>Error: {this.state.error.message}</div>
+    } else if (!this.state.isLoaded) {
+      return (
+      <div id="quote-box">
+        <p id="author">Loading...</p>
+        <span id="empty-space"></span>
+        <div className="buttons" id="buttons">
+          <button disabled={true}>Prev. Quote</button>
+          <button disabled={true}>New Quote</button>
+          <button disabled={true}>Next Quote</button>
+          <a id="tweet-quote" onMouseOver={({target})=>target.style.cursor='not-allowed'}>Tweet Quote</a>
+        </div>
+     </div>
+      )
+    } else {
+    return (
+     [<div id="quote-box">
+        <p id="text">“{this.state.quote}”</p>
+        {console.log(this.state.condition)}
+        <p id="author">— {this.state.author ? this.state.author : "Unknown author"}</p>
+        <span id="empty-space"></span>
+        <div id="buttons" className="buttons">
+          <button disabled={this.state.position < 1 ? true : false } onClick={this.getPrevQuoteInTheArr.bind(this)} onMouseOver={({target})=>target.style.color=document.body.style.backgroundColor} onMouseOut={({target})=>target.style.color='#FFF'}>Prev. Quote</button>
+          <button id="new-quote" onClick={this.componentDidMount.bind(this)}  onMouseOver={({target})=>target.style.color=document.body.style.backgroundColor} onMouseOut={({target})=>target.style.color='#FFF'}>New Quote</button>
+          <button disabled={this.state.position >= (this.state.prevQuotes.length - 1) ? true : false } onClick={this.getNextQuote.bind(this)} onMouseOver={({target})=>target.style.color=document.body.style.backgroundColor} onMouseOut={({target})=>target.style.color='#FFF'}>Next Quote</button>
+          <a id="tweet-quote" href={"https://twitter.com/intent/tweet?text=" +  this.state.quote} onMouseOver={({target})=>target.style.color=document.body.style.backgroundColor} target="_blank" onMouseOut={({target})=>target.style.color='#FFF'}>Tweet Quote</a>
+        </div>
+     </div>
+    ]) 
+    }
+  }
+}
+
+ReactDOM.render(
+  <QuoteViewer />,
+  document.getElementById('root')
+);

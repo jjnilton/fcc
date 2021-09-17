@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-family: sans-serif;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#description {
+  margin-bottom: 10px;
+}
+
+.legend-item {
+  filter: contrast(50%) brightness(1.2);
+}

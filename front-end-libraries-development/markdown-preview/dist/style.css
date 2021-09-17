@@ -1,0 +1,125 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-template-areas: "a b" "c c";
+  grid-gap: 10px;
+  height: 98vh;
+}
+
+.editor-container, .preview-container {
+  overflow: auto;
+  height: 100%;
+}
+
+.editor, .preview {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  font-family: sans-serif;
+}
+
+.editor {
+  border: 3px solid black;
+  min-height: calc(100% - 38px);
+}
+
+.preview {
+  overflow: auto;
+}
+
+.editor-title, .preview-title {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.preview-title > span {
+  background: black;
+  color: white;
+  padding: 5px;
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote > p {
+  background: #EEE;
+  padding: 5px;
+  color: #333;
+}
+
+p > code {
+  background: black;
+  color: white;
+  padding: 5px;
+}
+
+pre {
+  background: black;
+  color: white;
+  padding: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
+
+footer {
+  grid-area: c;
+}
+
+footer > p {
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.markedjs {
+  background-color: black;
+  color: white !important;
+  text-decoration: none;
+  padding: 5px;
+}
+
+p > img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    filter: blur(10px);
+  }
+
+  body::after {
+    content: "Not available for mobile.";
+    font-size: 32px;
+    font-family: sans-serif;
+    border: 3px solid black;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    pointer-events: none;
+  }
+}

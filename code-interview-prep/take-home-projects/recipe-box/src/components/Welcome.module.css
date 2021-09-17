@@ -1,0 +1,32 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+
+.welcome > div {
+  background-color: #4682b4;
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.welcome > div:hover {
+  transform: scale(1.1);
+  background-color: #2d5474;
+}
+
+.message {
+  text-align: center;
+  color: #333;
+}

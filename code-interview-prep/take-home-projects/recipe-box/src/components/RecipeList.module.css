@@ -1,0 +1,66 @@
+.recipe-list > h1 {
+  color: #333;
+  margin-left: 10px;
+}
+
+.recipe-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-list ul li {
+  border: 3px solid rgb(108, 181, 255);
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(201, 221, 228);
+  border-radius: 5px;
+  align-items: center;
+  padding: 5px;
+}
+
+.recipe-list ul li:hover {
+  background-color: rgb(177, 211, 233);
+}
+
+.recipe-list ul li > .info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recipe-list ul li .info > .name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1em;
+}
+
+.recipe-list ul li .info > .description {
+  font-size: 0.75em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.recipe-list ul li a {
+  text-decoration: none;
+  min-width: 80px;
+  cursor: pointer;
+  background-color: steelblue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin-left: 5px;
+}
+.recipe-list ul li a:hover {
+  background-color: rgb(41, 78, 107);
+}
+
+.recipe-list p.empty {
+  margin: 10px;
+}

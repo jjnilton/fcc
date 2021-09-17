@@ -1,0 +1,28 @@
+.header {
+  background-color: steelblue;
+}
+
+.header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  padding: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.header ul li {
+  list-style: none;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: bold;
+}

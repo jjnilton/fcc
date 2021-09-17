@@ -1,0 +1,57 @@
+class MarkdownPreviewer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: `# Heading 1
+## Heading 2
+
+[Link](#)\n
+
+\`Inline code\`\n
+
+\`\`\`
+Block 
+code
+\`\`\`
+
+- List item 1
+
+Something else.
+
+> Block quote
+
+![](https://i2.wp.com/assets.codepen.io/internal/avatars/users/default.png?ssl=1)
+
+**Something bold**
+`
+    }
+  }
+  
+  handleChange(event) {
+    this.setState({value: event.target.value})
+  }
+  
+  render() {
+    return (
+    <div class="container">
+      <div class="editor-container">
+        <div id="editor-title" class="editor-title">Editor</div>
+        <textarea id="editor" class="editor" onChange={this.handleChange.bind(this)}>{this.state.value}</textarea>
+      </div>
+      <div class="preview-container">
+        <div id="preview-title" class="preview-title"><span>Preview</span></div>
+        <div id="preview" class="preview" dangerouslySetInnerHTML={{__html: marked(this.state.value, {"breaks": true})}}>
+        </div>
+      </div>
+        <footer>
+          <p>Markdown Editor Preview built with <a class= "markedjs" href="https://marked.js.org/" target="_blank">Marked.js</a></p>
+        </footer>
+    </div>
+    )
+  }
+  
+}
+
+ReactDOM.render(
+  <MarkdownPreviewer />, document.getElementById('root')
+)
