@@ -38,6 +38,7 @@ header .main-header {
 
 header .logo-and-title {
   display: flex;
+  align-items: center;
 }
 
 header .logo-and-title > div.main-title {
@@ -344,7 +345,7 @@ footer > .footer-container > .footer-section {
 @media (max-width: 620px) {
   section#plans > div.plans-container > div.plan {
     margin: 15px 30px;
-    min-width: 300px;
+    min-width: 200px;
     text-align: center;
   }
   section#plans .plan:nth-child(even) {
