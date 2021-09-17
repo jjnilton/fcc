@@ -15,7 +15,8 @@ A basic page that checks the weather based on the local of the user, obtained fr
 - JavaScript
 - jQuery
 
-[Source](local-weather) - [Live*](local-weather/dist)
+[Source](local-weather) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/local-weather/dist)*
+
 
 * Uses third-party APIs.
 
@@ -28,7 +29,7 @@ A basic page that shows related Wikipedia articles based on an input query.
 - JavaScript
 - jQuery
 
-[Source](wikipedia-viewer) - [Live](wikipedia-viewer/dist)*
+[Source](wikipedia-viewer) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/wikipedia-viewer/dist)*
 
 * Uses third-party APIs.
 
@@ -41,7 +42,7 @@ Checks the status of Twitch streamers, and get information about their profile a
 - JavaScript
 - jQuery
 
-[Source](twitch-checker) - [Live](twitch-checker/dist)*
+[Source](twitch-checker) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/twitch-checker/dist)*
 
 * Uses third-party APIs.
 
@@ -53,5 +54,6 @@ Lets you manage recipes, add/remove/edit.
 - CSS
 - React
 - React Router DOM
+- localStorage
 
-[Source](recipe-box) - [Live](recipe-box/dist)*
+[Source](recipe-box) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/dist)*

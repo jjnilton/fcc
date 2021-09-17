@@ -1,8 +1,8 @@
-# Markdown Preview
+# Markdown Previewer
 
-![Markdown Preview](screenshot.png)
+![Markdown Previewer](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/front-end-libraries-development/markdown-previewer/dist)
 
 ## Description
 

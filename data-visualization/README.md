@@ -17,18 +17,18 @@ A bar chart with United States GDP data.
 - JavaScript
 - D3.js
 
-[Source]() - [Live](visualize-data-with-a-bar-chart/dist)
+[Source](bar-chart) - [Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/bar-chart/dist)
 
-## Scatterplot Map
+## Scatterplot Graph
 
-A scatterplot map with data about doping on professional bicycle racing.
+A scatterplot graph with data about doping on professional bicycle racing.
 
 - HTML
 - CSS
 - JavaScript
 - D3.js
 
-[Source]() - [Live](visualize-data-with-a-scatterplot-map/dist)
+[Source](scatterplot-graph) - [Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/scatterplot-graph/dist)
 
 ## Heat Map
 
@@ -39,7 +39,7 @@ A heat map on the global land-surface temperature.
 - JavaScript
 - D3.js
 
-[Source](visualize-data-with-a-heat-map) - [Live](visualize-data-with-a-heat-map/dist)
+[Source](heat-map) - [Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/heat-map/dist)
 
 ## Choropleth Map
 
@@ -50,7 +50,7 @@ A choropleth map with United States educational attainment data.
 - JavaScript
 - D3.js
 
-[Source](visualize-data-with-a-choropleth-map) - [Live](visualize-data-with-a-choropleth-map/dist)
+[Source](choropleth-map) - [Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/choropleth-map/dist)
 
 ## Treemap Diagram
 
@@ -61,4 +61,4 @@ A treemap diagram with video game sales data, based on the platform.
 - JavaScript
 - D3.js
 
-[Source](visualize-data-with-a-treemap-diagram) - [Live](visualize-data-with-a-treemap-diagram/dist)
+[Source](treemap-diagram) - [Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/treemap-diagram/dist)

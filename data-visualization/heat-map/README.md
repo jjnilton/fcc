@@ -2,7 +2,7 @@
 
 ![Heat Map](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/heat-map/dist)
 
 ## Description
 

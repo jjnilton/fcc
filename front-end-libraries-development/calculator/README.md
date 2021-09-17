@@ -2,7 +2,7 @@
 
 ![Calculator](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/front-end-libraries-development/calculator/dist)
 
 ## Description
 

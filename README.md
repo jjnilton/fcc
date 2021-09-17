@@ -41,7 +41,7 @@ Sections:
 | Project                | Description                                           | Technologies   | Source                                                                                                                                     | Live                                                                                                                                                                                   |
 | ---------------------- | ----------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Random Quote Machine\* | Generate a random quote from an API                   | jQuery / React | [jQuery](front-end-libraries-development/random-quote-machine-jquery), [React](front-end-libraries-development/random-quote-machine-react) | [jQuery](https://jjnilton.github.io/freecodecamp-projects/random-quote-machine-jquery/dist), [React](https://jjnilton.github.io/freecodecamp-projects/random-quote-machine-react/dist) |
-| Markdown Preview       | Render HTML from markdown markup                      | React          | [View](front-end-libraries-development/markdown-preview)                                                                                   | [View](https://jjnilton.github.io/freecodecamp-projects/markdown-preview/dist)                                                                                                         |
+| Markdown Previewer     | Render HTML from markdown markup                      | React          | [View](front-end-libraries-development/markdown-previewer)                                                                                 | [View](https://jjnilton.github.io/freecodecamp-projects/markdown-previewer/dist)                                                                                                       |
 | Drum Machine           | Play a sound by clicking an element or pressing a key | React          | [View](front-end-libraries-development/drum-machine)                                                                                       | [View](https://jjnilton.github.io/freecodecamp-projects/drum-machine/dist)                                                                                                             |
 | Calculator             | A simple calculator                                   | React          | [View](front-end-libraries-development/calculator)                                                                                         | [View](https://jjnilton.github.io/freecodecamp-projects/calculator/dist)                                                                                                               |
 | 25 + 5 Clock           | A countdown timer with option to set intervals        | React          | [View](front-end-libraries-development/25-5-clock)                                                                                         | [View](https://jjnilton.github.io/freecodecamp-projects/25-5-clock/dist)                                                                                                               |
@@ -52,13 +52,13 @@ Sections:
 
 [Data Visualization](data-visualization) projects - charts, maps and diagrams - with D3.js.
 
-| Project         | Description                                | Technologies | Source                                     | Live     |
-| --------------- | ------------------------------------------ | ------------ | ------------------------------------------ | -------- |
-| Bar Chart       | United States Gross Domestic Product Chart | D3.js        | [View](data-visualization/bar-chart)       | [View]() |
-| Scatterplot Map | Doping in Professional Bicycle Racing Map  | D3.js        | [View](data-visualization/scatterplot-map) | [View]() |
-| Heat Map        | Global Land-Surface Temperature Map        | D3.js        | [View](data-visualization/heat-map)        | [View]() |
-| Choropleth Map  | United States Educational Attainment Map   | D3.js        | [View](data-visualization/choropleth-map)  | [View]() |
-| Treemap Diagram | Video Game Sales Diagram                   | D3.js        | [View](data-visualization/treemap-diagram) | [View]() |
+| Project           | Description                                 | Technologies | Source                                     | Live     |
+| ----------------- | ------------------------------------------- | ------------ | ------------------------------------------ | -------- |
+| Bar Chart         | United States Gross Domestic Product Chart  | D3.js        | [View](data-visualization/bar-chart)       | [View]() |
+| Scatterplot Graph | Doping in Professional Bicycle Racing Graph | D3.js        | [View](data-visualization/scatterplot-map) | [View]() |
+| Heat Map          | Global Land-Surface Temperature Map         | D3.js        | [View](data-visualization/heat-map)        | [View]() |
+| Choropleth Map    | United States Educational Attainment Map    | D3.js        | [View](data-visualization/choropleth-map)  | [View]() |
+| Treemap Diagram   | Video Game Sales Diagram                    | D3.js        | [View](data-visualization/treemap-diagram) | [View]() |
 
 ## Back-End Development and APIs
 

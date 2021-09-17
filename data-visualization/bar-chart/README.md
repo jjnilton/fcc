@@ -2,7 +2,7 @@
 
 ![Bar Chart](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/bar-chart/dist)
 
 ## Description
 

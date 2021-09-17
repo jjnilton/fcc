@@ -2,7 +2,7 @@
 
 ![Random Quote Machine (React)](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/front-end-libraries-development/random-quote-machine-react/dist)
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 ![Treemap Diagram](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/treemap-diagram/dist)
 
 ## Description
 

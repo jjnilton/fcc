@@ -1,12 +1,12 @@
-# Scatterplot Map
+# Scatterplot Graph
 
-![Scatterplot Map](screenshot.png)
+![Scatterplot Graph](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/scatterplot-graph/dist)
 
 ## Description
 
-A scatterplot map with data about doping in professional bicycle racing.
+A scatterplot graph with data about doping in professional bicycle racing.
 
 ## Technologies
 
@@ -17,7 +17,7 @@ A scatterplot map with data about doping in professional bicycle racing.
 
 ## Objective
 
-Build a scatterplot map fulfilling the following user stories.
+Build a scatterplot graph fulfilling the following user stories.
 
 ### User Stories
 

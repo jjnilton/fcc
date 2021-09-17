@@ -2,7 +2,7 @@
 
 ![Drum Machine](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/front-end-libraries-development/drum-machine/dist)
 
 ## Description
 

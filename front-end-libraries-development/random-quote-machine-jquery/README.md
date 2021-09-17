@@ -2,7 +2,7 @@
 
 ![Random Quote Machine (jQuery)](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/front-end-libraries-development/random-quote-machine-jquery/dist)
 
 ## Description
 

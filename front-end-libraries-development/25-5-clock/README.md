@@ -2,7 +2,7 @@
 
 ![25 + 5 Clock](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/front-end-libraries-development/25-5-clock/dist)
 
 ## Description
 

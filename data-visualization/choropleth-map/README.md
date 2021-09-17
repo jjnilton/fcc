@@ -2,7 +2,7 @@
 
 ![Choropleth Chart](screenshot.png)
 
-[Source]() - [Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/data-visualization/choropleth-map/dist)
 
 ## Description
 
