@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build">
       <App />
     </Router>
   </React.StrictMode>,
