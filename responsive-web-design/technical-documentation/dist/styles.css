@@ -11,6 +11,18 @@ body {
   overflow: hidden;
 }
 
+label {
+  display: none;
+}
+
+input {
+  display: none;
+}
+
+input:checked ~ ul {
+  display: none;
+}
+
 nav {
   background-color: #eee;
   border: 1px solid #ccc;
@@ -83,6 +95,18 @@ main::after {
 @media (max-width: 640px) {
   body {
     flex-direction: column;
+  }
+
+  label, input {
+    display: block;
+    text-align: center;
+    color: #333;
+    max-width: 100px;
+    margin: 5px auto;
+  }
+
+  input {
+    margin-bottom: 10px;
   }
 
   nav {
