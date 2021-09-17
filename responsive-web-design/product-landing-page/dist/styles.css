@@ -228,8 +228,11 @@ section#reviews > div.reviews-text {
 section#reviews > div.reviews-container {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   margin-bottom: 25px;
   flex-wrap: wrap;
+  max-width: 800px;
+
 }
 
 section#reviews .review {
@@ -260,6 +263,12 @@ section#reviews .review > .review-author > .author-avatar img {
 
 section#faq > div.faq-text {
   text-align: center;
+}
+
+section#faq > div.faq-container {
+  margin: 0 auto;
+  max-width: 800px;
+
 }
 
 section#faq > div.faq-container > .faq-item > details {
