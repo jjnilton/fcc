@@ -19,7 +19,7 @@ A very simple tribute page, using basically only Bootstrap and some placeholder 
 - HTML
 - Bootstrap
 
-[Source](responsive-web-design/tribute-page) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/tribute-page/dist)
+[Source](https://github.com/jjnilton/freecodecamp-projects/responsive-web-design/tribute-page) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/tribute-page/dist)
 
 ## Survey Form
 
@@ -28,7 +28,7 @@ A simple survey form page with actual CSS and less placeholder content.
 - HTML
 - CSS
 
-[Source](responsive-web-design/survey-form) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/survey-form/dist)
+[Source](https://github.com/jjnilton/freecodecamp-projects/responsive-web-design/survey-form) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/survey-form/dist)
 
 ## Product Landing Page
 
@@ -38,7 +38,7 @@ An "honest" product landing page, with a bit more of creativity and better marku
 - CSS
 - Flexbox
 
-[Source](responsive-web-design/product-landing-page) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/product-landing-page/dist)
+[Source](https://github.com/jjnilton/freecodecamp-projects/responsive-web-design/product-landing-page) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/product-landing-page/dist)
 
 ## Technical Documentation
 
@@ -48,7 +48,7 @@ A technical documentation page with a fixed sidebar, and some experimentation.
 - SCSS
 - Flexbox
 
-[Source](responsive-web-design/technical-documentation) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/technical-documentation/dist)
+[Source](https://github.com/jjnilton/freecodecamp-projects/responsive-web-design/technical-documentation) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/technical-documentation/dist)
 
 ## Personal Portfolio
 
@@ -58,4 +58,4 @@ A personal portfolio to expose these projects, and more experimentation.
 - Sass
 - Grid
 
-[Source](responsive-web-design/personal-portfolio) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/personal-portfolio/dist)
+[Source](https://github.com/jjnilton/freecodecamp-projects/responsive-web-design/personal-portfolio) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/personal-portfolio/dist)
