@@ -52,13 +52,13 @@ Sections:
 
 [Data Visualization](data-visualization) projects - charts, maps and diagrams - with D3.js.
 
-| Project           | Description                                 | Technologies | Source                                     | Live     |
-| ----------------- | ------------------------------------------- | ------------ | ------------------------------------------ | -------- |
-| Bar Chart         | United States Gross Domestic Product Chart  | D3.js        | [View](data-visualization/bar-chart)       | [View]() |
-| Scatterplot Graph | Doping in Professional Bicycle Racing Graph | D3.js        | [View](data-visualization/scatterplot-map) | [View]() |
-| Heat Map          | Global Land-Surface Temperature Map         | D3.js        | [View](data-visualization/heat-map)        | [View]() |
-| Choropleth Map    | United States Educational Attainment Map    | D3.js        | [View](data-visualization/choropleth-map)  | [View]() |
-| Treemap Diagram   | Video Game Sales Diagram                    | D3.js        | [View](data-visualization/treemap-diagram) | [View]() |
+| Project           | Description                                 | Technologies | Source                                       | Live                                                                                               |
+| ----------------- | ------------------------------------------- | ------------ | -------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Bar Chart         | United States Gross Domestic Product Chart  | D3.js        | [View](data-visualization/bar-chart)         | [View](https://jjnilton.github.io/freecodecamp-projects/data-visualization/bar-chart/dist)         |
+| Scatterplot Graph | Doping in Professional Bicycle Racing Graph | D3.js        | [View](data-visualization/scatterplot-graph) | [View](https://jjnilton.github.io/freecodecamp-projects/data-visualization/scatterplot-graph/dist) |
+| Heat Map          | Global Land-Surface Temperature Map         | D3.js        | [View](data-visualization/heat-map)          | [View](https://jjnilton.github.io/freecodecamp-projects/data-visualization/heat-map/dist)          |
+| Choropleth Map    | United States Educational Attainment Map    | D3.js        | [View](data-visualization/choropleth-map)    | [View](https://jjnilton.github.io/freecodecamp-projects/data-visualization/choropleth-map/dist)    |
+| Treemap Diagram   | Video Game Sales Diagram                    | D3.js        | [View](data-visualization/treemap-diagram)   | [View](https://jjnilton.github.io/freecodecamp-projects/data-visualization/treemap-diagram/dist)   |
 
 ## Back-End Development and APIs
 
@@ -80,9 +80,9 @@ Sections:
 
 [Take-home Projects](code-interview-prep/take-home-projects) you can use to practice development, or add to a portfolio.
 
-| Project          | Description                              | Technologies        | Source                                                          | Live     |
-| ---------------- | ---------------------------------------- | ------------------- | --------------------------------------------------------------- | -------- |
-| Local Weather    | Shows local weather from IP geo-location | jQuery              | [View](code-interview-prep/take-home-projects/local-weather)    | [View]() |
-| Wikipedia Viewer | Searches Wikipedia article               | jQuery              | [View](code-interview-prep/take-home-projects/wikipedia-viewer) | [View]() |
-| Twitch Checker   | Show information about Twitch streamers  | jQuery              | [View](code-interview-prep/take-home-projects/twitch-checker)   | [View]() |
-| Recipe Box       | Manage a recipe list                     | React, React Router | [View](code-interview-prep/take-home-projects/recipe-box)       | [View]() |
+| Project          | Description                              | Technologies        | Source                                                          | Live                                                                                                                  |
+| ---------------- | ---------------------------------------- | ------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Local Weather    | Shows local weather from IP geo-location | jQuery              | [View](code-interview-prep/take-home-projects/local-weather)    | [View](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/local-weather/dist)    |
+| Wikipedia Viewer | Searches Wikipedia article               | jQuery              | [View](code-interview-prep/take-home-projects/wikipedia-viewer) | [View](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/wikipedia-viewer/dist) |
+| Twitch Checker   | Show information about Twitch streamers  | jQuery              | [View](code-interview-prep/take-home-projects/twitch-checker)   | [View](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/twitch-checker/dist)   |
+| Recipe Box       | Manage a recipe list                     | React, React Router | [View](code-interview-prep/take-home-projects/recipe-box)       | [View](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/dist)       |
