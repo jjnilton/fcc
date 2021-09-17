@@ -2,7 +2,7 @@
 
 ![Product Landing Page](screenshot.png)
 
-[Source](/) - [Live]()
+[Source](responsive-web-design/product-landing-page) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/product-landing-page/dist)
 
 ## Description
 

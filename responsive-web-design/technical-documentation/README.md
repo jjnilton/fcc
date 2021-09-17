@@ -2,7 +2,7 @@
 
 ![Technical Documentation](screenshot.png)
 
-[Source](/) - [Live]()
+[Source](responsive-web-design/technical-documentation) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/technical-documentation/dist)
 
 ## Description
 
