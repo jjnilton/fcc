@@ -2,7 +2,7 @@
 
 ![Tribute Page](screenshot.png)
 
-[Source](responsive-web-design/tribute-page) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/tribute-page/dist)
+[Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/tribute-page/dist)
 
 ## Description
 

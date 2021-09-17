@@ -2,7 +2,7 @@
 
 ![Tribute Page](screenshot.png)
 
-[Source](responsive-web-design/personal-portfolio) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/personal-portfolio/dist)
+[Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/personal-portfolio/dist)
 
 ## Description
 

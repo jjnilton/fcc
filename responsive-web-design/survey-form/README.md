@@ -2,7 +2,7 @@
 
 ![Survey Form](screenshot.png)
 
-[Source](responsive-web-design/survey-form) - [Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/survey-form/dist)
+[Live](https://jjnilton.github.io/freecodecamp-projects/responsive-web-design/survey-form/dist)
 
 ## Description
 
