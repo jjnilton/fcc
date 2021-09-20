@@ -57,3 +57,14 @@ Lets you manage recipes, add/remove/edit.
 - localStorage
 
 [Source](recipe-box) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/dist)*
+
+## freeCodeCamp Forum Homepage
+
+Lists the latest topics on freeCodeCamp forum.
+
+- HTML
+- CSS
+- React
+- React Styled Components
+
+[Source](freecodecamp-forum-homepage) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/freecodecamp-forum-homepage/dist)*
