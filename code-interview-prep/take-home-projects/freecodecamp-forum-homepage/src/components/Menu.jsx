@@ -38,12 +38,10 @@ const StyledMenu = styled.div`
 
 const Menu = (props) => {
   const handleRefresh = () => {
-    console.log("handling refreshing")
     props.refresh();
   };
 
   const handleScrollUp = () => {
-    console.log("handling scrollup")
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
