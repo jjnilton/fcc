@@ -5,6 +5,8 @@ Coding projects for extra practice.
 - [Local Weather](#local-weather)
 - [Wikipedia Viewer](#wikipedia-viewer)
 - [Twitch Checker](#twitch-checker)
+- [Recipe Box](#recipe-box)
+- [freeCodeCamp Forum Homepage](#freecodecamp-forum-homepage)
 
 ## Local Weather
 
