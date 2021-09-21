@@ -7,6 +7,7 @@ Coding projects for extra practice.
 - [Twitch Checker](#twitch-checker)
 - [Recipe Box](#recipe-box)
 - [freeCodeCamp Forum Homepage](#freecodecamp-forum-homepage)
+- [Image Search Abstraction Layer](#image-search-abstraction-layer)
 
 ## Local Weather
 
@@ -70,5 +71,18 @@ Lists the latest topics on freeCodeCamp forum.
 - React Styled Components
 
 [Source](freecodecamp-forum-homepage) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/freecodecamp-forum-homepage/dist)*
+
+\* Uses third-party APIs.
+
+## Image Search Abstraction Layer
+
+Returns image results from queries, kind of an proxy for Google Custom Search API.
+
+- Node.js
+- Express.js
+- Axios
+- PouchDB
+
+[Source](freecodecamp-forum-homepage)*
 
 \* Uses third-party APIs.
