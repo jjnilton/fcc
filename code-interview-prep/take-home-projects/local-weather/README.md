@@ -2,7 +2,7 @@
 
 ![Local Weather](screenshot.png)
 
-[Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/local-weather/dist/)
 
 ## Description
 

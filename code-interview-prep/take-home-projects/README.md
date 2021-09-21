@@ -18,7 +18,7 @@ A basic page that checks the weather based on the local of the user, obtained fr
 [Source](local-weather) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/local-weather/dist)*
 
 
-* Uses third-party APIs.
+\* Uses third-party APIs.
 
 ## Wikipedia Viewer
 
@@ -31,7 +31,7 @@ A basic page that shows related Wikipedia articles based on an input query.
 
 [Source](wikipedia-viewer) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/wikipedia-viewer/dist)*
 
-* Uses third-party APIs.
+\* Uses third-party APIs.
 
 ## Twitch Checker
 
@@ -44,7 +44,7 @@ Checks the status of Twitch streamers, and get information about their profile a
 
 [Source](twitch-checker) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/twitch-checker/dist)*
 
-* Uses third-party APIs.
+\* Uses third-party APIs.
 
 ## Recipe Box
 
@@ -68,3 +68,5 @@ Lists the latest topics on freeCodeCamp forum.
 - React Styled Components
 
 [Source](freecodecamp-forum-homepage) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/freecodecamp-forum-homepage/dist)*
+
+\* Uses third-party APIs.
