@@ -2,7 +2,7 @@
 
 ![FreeCodeCamp Forum Homepage](screenshot.png)
 
-[Live]()
+[Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/freecodecamp-forum-homepage/dist)
 
 ## Description
 

@@ -1,6 +1,12 @@
 const path = require("path");
 const webpack = require("webpack");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+
+const htmlPlugin = new HtmlWebPackPlugin({
+  template: "./public/index.html",
+  filename: "./index.html"
+});
 
 module.exports = {
   entry: "./src/index.js",
@@ -23,14 +29,11 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ["*", ".js", ".jsx"],
-    alias: {
-      process: "process/browser",
-    },
+    extensions: ["*", ".js", ".jsx"]
   },
   output: {
     path: path.resolve(__dirname, "dist/"),
-    publicPath: "/dist/",
+    publicPath: "",
     filename: "bundle.js",
   },
   devServer: {
@@ -40,19 +43,11 @@ module.exports = {
     port: 3000,
     devMiddleware: {
       publicPath: "https://localhost:3000/dist/",
-    },
-    hot: "only",
+    }
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new ReactRefreshWebpackPlugin(),
-    new webpack.ProvidePlugin({
-      process: "process/browser",
-    }),
-    new webpack.EnvironmentPlugin({
-      NODE_ENV: "development", // use 'development' unless process.env.NODE_ENV is defined
-      DEBUG: false,
-      TESTE: "teste"
-    }),
+    htmlPlugin
   ],
 };

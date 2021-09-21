@@ -29,7 +29,6 @@ const App = () => {
   };
 
   const handleScroll = () => {
-    console.log("scrolling");
     setY(window.scrollY);
     if (window.scrollY > y) {
       setMenuVisible(false);

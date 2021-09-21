@@ -56,7 +56,7 @@ Lets you manage recipes, add/remove/edit.
 - React Router DOM
 - localStorage
 
-[Source](recipe-box) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/dist)*
+[Source](recipe-box) - [Live](https://jjnilton.github.io/freecodecamp-projects/code-interview-prep/take-home-projects/recipe-box/build)*
 
 ## freeCodeCamp Forum Homepage
 
