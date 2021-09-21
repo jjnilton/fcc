@@ -38,10 +38,12 @@ const StyledMenu = styled.div`
 
 const Menu = (props) => {
   const handleRefresh = () => {
+    console.log("handling refreshing")
     props.refresh();
   };
 
   const handleScrollUp = () => {
+    console.log("handling scrollup")
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -51,7 +53,7 @@ const Menu = (props) => {
         <button onClick={handleRefresh} disabled={!props.isLoaded}>
           Refresh
         </button>
-        <button onClick={handleScrollUp} disabled={props.ontop}>
+        <button onClick={handleScrollUp} disabled={props.onTop}>
           Go up
         </button>
       </div>

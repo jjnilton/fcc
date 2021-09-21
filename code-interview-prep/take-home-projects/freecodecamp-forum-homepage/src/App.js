@@ -112,7 +112,7 @@ const App = () => {
       <Menu
         refresh={fetchData}
         visible={menuVisible}
-        ontop={y < 1 ? true : false}
+        onTop={y < 1 ? true : false}
         isLoaded={isLoaded}
       ></Menu>
       <footer style={{ textAlign: "center", padding: "10px" }}>
