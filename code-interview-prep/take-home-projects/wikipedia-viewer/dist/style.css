@@ -2,7 +2,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5vh;
-  width: 60vw;
   font-family: sans-serif;
   background: #993333;
 }
@@ -22,14 +21,14 @@ body {
 }
 
 #header {
-  font-size: 3vw;
+  font-size: 1.25em;
   background: white;
   color: #993333;
   padding: 2px;
 }
 
 #main input {
-  font-size: 2vw;
+  font-size: 1.5em;
   box-shadow: 0px 0px 5px black;
   border: none;
   margin: 10px;
@@ -47,7 +46,7 @@ input:focus {
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #DDCCCC;
+    color: #DDCCCC;
 }
 
 .entry {
@@ -68,15 +67,16 @@ input:focus {
   color: #AA0000;
 }
 
-#random {
+a#random.random {
   background-color: #FFEEEE;
-  color: #AA0000 !important;
+  color: #AA0000 ;
   padding: 2px;
-  box-shadow: 0px 0px 2px black;
+  box-shadow: 0px 0px 3px black;
 }
 
-#random:hover {
-  background-color: white;
+a#random.random:hover {
+  background-color: #AA0000;
+  color: #FFEEEE;
 }
 
 .title {

@@ -13,7 +13,7 @@ $.getJSON('https://geoip-db.com/json/geoip.php?jsonp=?').done(function(location)
 })
 
 
-$.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=-12.25&lon=-38.95&appid=e3b9fe0e000926c5fd677b2dc86812a9&units=metric&callback=?').done(function(weather) {
+$.getJSON('https://api.openweathermap.org/data/2.5/weather?lat=-12.25&lon=-38.95&appid=e3b9fe0e000926c5fd677b2dc86812a9&units=metric&callback=?').done(function(weather) {
   $('#dt').html(weather.dt);
   var time = weather.dt;
   $('#time').html(new Date(time*1000).toString());
